@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { TechUpdateComponent } from './tech-update/tech-update.component';
 import { FourOFourComponent } from './four-o-four/four-o-four.component';
+import { HobbiesComponent } from './hobbies/hobbies.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
     TechUpdateComponent,
-    FourOFourComponent
+    FourOFourComponent,
+    HobbiesComponent
   ],
   imports: [
     BrowserModule,
