@@ -7,6 +7,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { TechUpdateComponent } from './tech-update/tech-update.component';
 import { FourOFourComponent } from './four-o-four/four-o-four.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HobbiesComponent implements OnInit {
 
   constructor() { }
-
+  arr = [1,2,3,4,5,6]
   ngOnInit() {
   }
 

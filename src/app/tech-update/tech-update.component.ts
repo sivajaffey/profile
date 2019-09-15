@@ -8,8 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class TechUpdateComponent implements OnInit {
 
   constructor() { }
-
+  cdnLink = '<script src="http://sivainfo.rf.gd/assets/profile/library/samplejs.js"></script>';
   ngOnInit() {
+  this.sampleJs();
   }
-
+	sampleJs() {
+	  var elmnt = document.getElementById("samp");
+	  elmnt.scrollIntoView();
+	}
 }
